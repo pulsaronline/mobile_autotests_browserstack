@@ -9,7 +9,6 @@ repositories {
 }
 
 def allureVersion = "2.13.9",
-    selenideVersion = "5.21.0",
     junitVersion = "5.7.1"
 
 allure {
@@ -25,7 +24,7 @@ allure {
 dependencies {
     testImplementation(
             "org.aspectj:aspectjweaver:1.9.6",
-            "io.appium`:java-client:7.0.0",
+            "io.appium:java-client:7.0.0",
             "org.assertj:assertj-core:3.19.0",
             "org.junit.jupiter:junit-jupiter-api:$junitVersion")
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
